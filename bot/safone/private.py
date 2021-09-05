@@ -43,7 +43,7 @@ HELP_TEXT = """
 \u2022 `/endstream` - end current stream & left vc
 
 © **Powered By** : 
-**@AsmSafone | @SafoTheBot** 👑
+**@agastyaopxd | @rarepeople** 👑
 """
 
 
@@ -119,7 +119,7 @@ async def start(client, message):
             ],
             [
                 InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/VideoPlayerBot"),
+               
             ],
             [
                 InlineKeyboardButton("❔ HOW TO USE ❔", callback_data="help"),
