@@ -1,6 +1,6 @@
 """
 VideoPlayerBot, Telegram Video Chat Bot
-Copyright (c) 2021  Asm Safone <https://github.com/AsmSafone>
+
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -24,7 +24,7 @@ from pyrogram.errors import MessageNotModified
 
 CHAT_ID = Config.CHAT_ID
 USERNAME = Config.BOT_USERNAME
-HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**, \n\nI'm **Video Player Bot**. \nI Can Stream Lives, YouTube Videos & Telegram Video Files On Voice Chat of Telegram Channels & Groups 😉! \n\n**Made With ❤️ By @ImSafone!** 👑"
+HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**, \n\nI'm **Video Player Bot**. \nI Can Stream Lives, YouTube Videos & Telegram Video Files On Voice Chat of Telegram Channels & Groups 😉! \n\n**Made With ❤️ By @agastyaopxd!** 👑"
 HELP_TEXT = """
 🏷️ --**Setting Up**-- :
 
@@ -52,12 +52,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     if query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/rarepeople"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/rarepeople"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/VideoPlayerBot"),
+                InlineKeyboardButton("MORE BOTS", url="https://t.me/rarepeople"),
+                
             ],
             [
                 InlineKeyboardButton("BACK HOME", callback_data="home"),
@@ -79,12 +79,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("SEARCH INLINE", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/rarepeople"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/rarepeople"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/VideoPlayerBot"),
+                InlineKeyboardButton("MORE BOTS", url="https://t.me/rarepeople"),
+                
             ],
             [
                 InlineKeyboardButton("❔ HOW TO USE ❔", callback_data="help"),
@@ -114,8 +114,8 @@ async def start(client, message):
                 InlineKeyboardButton("SEARCH INLINE", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/rarepeople"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/rarepeople"),
             ],
             [
                 InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
@@ -132,12 +132,12 @@ async def start(client, message):
 async def help(client, message):
     buttons = [
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/rarepeople"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/rarepeople"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/VideoPlayerBot"),
+                InlineKeyboardButton("MORE BOTS", url="https://t.me/rarepeople"),
+                
             ],
             [
                 InlineKeyboardButton("BACK HOME", callback_data="home"),
